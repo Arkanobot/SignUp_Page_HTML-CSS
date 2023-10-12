@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="mx-5">
+    <nav class="flex-container justify-between">
+      <div>
+        <h1 class="font-xl">Startup3</h1>
+      </div>
+      <div>
+        <input type="checkbox" class="hamburger" />
+        <label for="hamburger" class="hamburger">Menu</label>
+        <ul class="flex-container nav menu">
+          <li class="noListDots p-1">
+            <a href="#" class="font-lg overview">Overview</a>
+          </li>
+          <li class="noListDots p-1">
+            <a href="#" class="font-lg">Price</a>
+          </li>
+          <li class="noListDots p-1">
+            <a href="#" class="font-lg">Blog</a>
+          </li>
+          <li class="noListDots p-1">
+            <a href="#" class="font-lg">feedback</a>
+          </li>
+          <li class="noListDots p-1 bg-pink rounded btn-pink">
+            <a href="#" class="font-lg">Purchase</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="d-grid m-2 mt-4">
+      <section>
+        <div>
+          <h1 class="font-xxl">Generate Awesome Web Pages</h1>
+        </div>
+        <div>
+          <p class="font-xl pr-2">
+            The most important part of the Startup is the samples. The samples
+            form a set of 25 usable pages you can use as is or you can add new
+            blocks.
+          </p>
+        </div>
+        <div>
+          <button class="p-2 bg-pink rounded font-lg btn-pink">
+            Learn More
+          </button>
+        </div>
+      </section>
+      <section class="bg-white rounded-small color-purple p-2 place-center">
+        <div class="center">
+          <div class="mx-auto">
+            <h1 class="font-3em bold">Sign Up Now</h1>
+          </div>
+          <div class="flex-container flex-col p-1">
+            <form action="submit">
+              <input
+                class="rounded-lg my-4 py-2 p-1 border-grey font-med block w-90"
+                type="text"
+                name="email"
+                placeholder="Your email"
+              />
+              <input
+                class="rounded-lg my-4 py-2 p-1 border-grey font-med block w-90"
+                type="text"
+                name="password"
+                placeholder="Your password"
+              />
+
+              <div>
+                <div class="my-2">
+                  <input
+                    type="checkbox"
+                    name="terms&Conditions"
+                    class="chkbox"
+                    required
+                  />
+                  <label for="terms&Conditions" class="op-50 color-grey"
+                    >I agree to the Terms of Service.</label
+                  >
+                </div>
+              </div>
+
+              <input
+                type="submit"
+                value="Sign In"
+                class="signUpBtn rounded-lg flex-container p-2 py-2 m-1 justify-center mt-4"
+              />
+            </form>
+            <div class="d-grid-3 mt-2 align-center">
+              <div class="border border-2 border-solid">.</div>
+              <div class="ml-1 color-grey op-50">or</div>
+              <div class="border border-2 border-solid">.</div>
+            </div>
+            <button class="twitter rounded-lg m-1 p-2 py-2 mt-2">
+              Login via Twitter
+            </button>
+            <div class="mt-2 mx-auto">
+              <div class="color-grey">
+                <div class="op-50 inline">Do you have an Account?</div>
+                <a href="#" class="signInBtn">Sign In</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
